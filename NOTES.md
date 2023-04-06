@@ -32,3 +32,18 @@ Don't Repeat Yourself
 - Simplemente es evitar tener duplicidad de código
 - Simplifica pruebas
 - Ayuda a centralizar procesos
+
+
+# Estructura recomendada de una clase
+
+1. Propiedades estáticas
+2. Propiedades públicas de último
+
+## Métodos
+
+1. Empezar por constuctores estáticos
+2. Luego el constructor
+3. Métodos estáticos
+4. Metodos privados
+5. Resto de metodos ordenados de mayor a menor importancia
+6. Gettters y Setters al final
