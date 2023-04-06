@@ -47,3 +47,20 @@ Don't Repeat Yourself
 4. Metodos privados
 5. Resto de metodos ordenados de mayor a menor importancia
 6. Gettters y Setters al final
+
+
+# Code Smells STUPID
+
+- **S**ingleton: patrón singleton (si bien tiene ventajas, tiene contras también, debe usarse con cuidado, tratar de no usarlo)
+- **T**ight Coupling: alto acoplamiento. Lo ideal es tener bajo acoplamiento y buena cohesión. Alto acomplamiento provoca efecto domino al realizar algún cambio en código. La buena cohesión se refiere a que la clase solo hace lo que debería estar haciendo, no está cargado de gran variedad de funcionalidades (SRP)
+- **U**nestability: Código no probable. Dificilmente testeable debido al alto acoplamiento, muchas dependencias no inyectadas, uso de singleton.
+- **P**remature optimization: Optimizaciones prematuras, no anticiparnos a los requisitos que añaden complejidad accidental
+- **I**ndescriptive naming: Nombres poco descriptivos
+- **D**uplication: Duplicidad de código, no aplicar DRY
+
+
+## Otros "code smells"
+
+- **Inflación:** Métodos con muchas líneas de código o clases muy grandes.
+- **Obsesión primitiva:** Abusar del uso de variables primitivas. Lo correcto sería reemplazar todas estas variables en algun módulo u objeto que mantenga más simple todo.
+- **Lista larga de parámetros** 
