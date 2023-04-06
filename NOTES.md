@@ -13,4 +13,22 @@
 
 - Ausencia de información técnica en nombres (por ejemplo Abstract, Interface, Mixin en el nombre)
 
-- 
+
+
+## Recomendaciones de funciones
+
+- Usar máximo 3 argumentos posicionales
+- Simplicidad es fundamental
+- Funciones de una sola línea sin causar complejidad
+- Menos de 20 líneas
+- Evitar el uso del "else"
+- Priorizar uso de la condicional ternaria
+
+
+# Principio DRY
+
+Don't Repeat Yourself
+
+- Simplemente es evitar tener duplicidad de código
+- Simplifica pruebas
+- Ayuda a centralizar procesos
