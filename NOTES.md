@@ -64,3 +64,14 @@ Don't Repeat Yourself
 - **Inflación:** Métodos con muchas líneas de código o clases muy grandes.
 - **Obsesión primitiva:** Abusar del uso de variables primitivas. Lo correcto sería reemplazar todas estas variables en algun módulo u objeto que mantenga más simple todo.
 - **Lista larga de parámetros** 
+
+
+# Principios SOLID
+
+S – Single Responsibility Principle (SRP)
+O – Open/Closed Principle (OCP)
+L – Liskov Substitution Principle (LSP)
+I – Interface Segregation Principle (ISP)
+D – Dependency Inversion Principle (DIP)
+
+
